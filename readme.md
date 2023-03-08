@@ -8,9 +8,9 @@ In order to optimize our inventory, we would like to know which films will be re
 
 ### Instructions
 
-1. Create a query or queries to extract the information you think may be relevant for building the prediction model. It should include some film features and some rental features. Use the data from 2005.
-2. Create a query to get the list of films and a boolean indicating if it was rented last month (August 2005). This would be our target variable.
-3. Read the data into a Pandas dataframe.
-4. Analyze extracted features and transform them. You may need to encode some categorical variables, or scale numerical variables.
-5. Create a logistic regression model to predict this variable from the cleaned data.
+1. Create a query or queries to extract the information you think may be relevant for building the prediction model. It should include some film features and some rental features (X). 
+2. Create a query to get the list of all unique film titles and a boolean indicating if it was rented (rental_date) in May 2005. (Create new column called - 'rented_in_may'). This would be our **TARGET** (y) variable.
+3. Read the data into a Pandas dataframe.  At this point you should have 1000 rows.  Number of columns depends on the number of features you chose.
+4. Analyze extracted features (X) and transform them. You may need to encode some categorical variables, or scale numerical variables.
+5. Create a logistic regression model to predict 'rented_in_may' from the cleaned data.
 6. Evaluate the results.
