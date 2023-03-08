@@ -4,7 +4,7 @@
 
 In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals.
 
-In order to optimize our inventory, we would like to know which films will be rented next month and we are asked to create a model to predict it.
+In order to optimize our inventory, we would like to know which films will be rented. We are asked to create a model to predict it. So we use the information we have from May 2005 to create the model.
 
 ### Instructions
 
